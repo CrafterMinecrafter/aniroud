@@ -1,0 +1,39 @@
+<style>
+.bb {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr)); /* Максимальная ширина изображения 20vw, они будут близко друг к другу */
+    grid-gap: 10px; /* Расстояние между изображениями */
+}
+
+.image-box {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px; /* Минимальная высота для блока, чтобы избежать пустых мест */
+}
+
+.image-box img {
+    width: 100%; /* Максимальная ширина для изображения, чтобы она была равной ширине родительского блока */
+    height: auto;
+    display: block;
+}
+
+
+</style>
+
+<div class="bb">
+<img class="image-box" src="https://aniroudcmm.carrd.co/assets/images/image01.jpg?v=63656d21" alt="Sample Image" onclick="openFullscreen(this)">
+<img class="image-box" src="https://aniroudcmm.carrd.co/assets/images/image05.jpg?v=63656d21" alt="Sample Image" onclick="openFullscreen(this)">
+<img class="image-box" src="https://aniroudcmm.carrd.co/assets/images/image04.jpg?v=63656d21" alt="Sample Image" onclick="openFullscreen(this)">
+<img class="image-box" src="https://aniroudcmm.carrd.co/assets/images/image10.jpg?v=63656d21" alt="Sample Image" onclick="openFullscreen(this)">
+<img class="image-box" src="https://aniroudcmm.carrd.co/assets/images/image02.jpg?v=63656d21" alt="Sample Image" onclick="openFullscreen(this)">
+<img class="image-box" src="https://aniroudcmm.carrd.co/assets/images/image03.jpg?v=63656d21" alt="Sample Image" onclick="openFullscreen(this)">
+<img class="image-box" src="https://aniroudcmm.carrd.co/assets/images/image06.jpg?v=63656d21" alt="Sample Image" onclick="openFullscreen(this)">
+<img class="image-box" src="https://aniroudcmm.carrd.co/assets/images/image07.jpg?v=63656d21" alt="Sample Image" onclick="openFullscreen(this)">
+<img class="image-box" src="https://aniroudcmm.carrd.co/assets/images/image08.jpg?v=63656d21" alt="Sample Image" onclick="openFullscreen(this)">
+<img class="image-box" src="https://aniroudcmm.carrd.co/assets/images/image09.jpg?v=63656d21" alt="Sample Image" onclick="openFullscreen(this)">
+<img class="image-box" src="https://aniroudcmm.carrd.co/assets/images/image12.jpg?v=63656d21" alt="Sample Image" onclick="openFullscreen(this)">
+</div>

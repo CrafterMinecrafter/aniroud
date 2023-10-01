@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Aniroud</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="imgoverlay.css" />
+    <script src="index.js"></script>
+    <script src="gallery.js"></script>
+    <script src="imgoverlay.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="/pages/EN/main.html">Основной</a>
+      <a href="/pages/EN/gallery.html">Галерея</a>
+      <a href="/pages/EN/aboutme.html">Информация о художнике</a>
+    </div>
+    <div class="fullscreen-overlay" id="fullscreenOverlay">
+      <img
+        class="fullscreen-image"
+        id="fullscreenImage"
+        onclick="closeFullscreen()"
+        alt="Full-Screen Image"
+      />
+    </div>
+
+    <p></p>
+    <div id="content"></div>
+  </body>
+</html>
