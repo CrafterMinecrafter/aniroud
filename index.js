@@ -24,4 +24,3 @@ function loadPage(url) {
     });
 }
 loadPage("/aniroud/pages/EN/main.html");
-//lol
