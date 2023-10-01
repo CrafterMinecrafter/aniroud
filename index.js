@@ -23,4 +23,4 @@ function loadPage(url) {
       isLoading = false;
     });
 }
-loadPage("/pages/EN/main.html");
+loadPage("/aniroud/pages/EN/main.html");
